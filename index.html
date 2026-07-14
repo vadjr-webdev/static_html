@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Static Website Design with HTML, CSS, and JavaScript</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col">
+          <nav>
+            <div id="website_logo">
+              <a href="/">
+                <img src="/website_logo.svg" alt="VAD's Website Logo" />
+              </a>
+            </div>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="row">
+          <div class="col-one-half">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              voluptas saepe dolores officia beatae perferendis quis sint
+              corrupti numquam pariatur molestiae voluptatem veritatis, cumque
+              consectetur.
+            </p>
+            <a href="#about" class="cta-btn">About Us</a>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="row">
+          <div class="col">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Incidunt, natus?
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-one-third">
+            <img src="/images/pexels-joshuamiranda-6298412.jpg" alt="" />
+          </div>
+          <div class="col-two-third">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Aspernatur magnam eligendi accusamus, dolore temporibus iste
+              tempore sunt placeat molestias aperiam impedit ab modi nesciunt
+              consequuntur nobis. Incidunt reiciendis numquam ipsam
+              reprehenderit magni commodi aliquam quos unde quis praesentium!
+              Dicta, eveniet.
+            </p>
+            <a href="#services" class="cta-btn">Our Services</a>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="row">
+          <div class="col">
+            <h2>Services</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              dolorum.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-one-third">
+            <div class="service">
+              <img src="/images/pexels-rdne-7310202.jpg" alt="" />
+              <h3>Service 1</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+                nihil aliquid, ducimus aliquam placeat similique?
+              </p>
+            </div>
+          </div>
+          <div class="col-one-third">
+            <div class="service">
+              <img src="/images/pexels-rdne-7309483.jpg" alt="" />
+              <h3>Service 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Similique harum blanditiis porro aspernatur? Perferendis, sunt?
+              </p>
+            </div>
+          </div>
+          <div class="col-one-third">
+            <div class="service">
+              <img src="/images/pexels-magnetme-3917414-5839461.jpg" alt="" />
+              <h3>Service 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
+                magnam ea autem quia. Ea, voluptate?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="row">
+          <div class="col">
+            <h2>Contact Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ad
+              repellat ipsam sequi error laboriosam.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <form action="POST">
+              <div class="form-input">
+                <label for="fullname">
+                  <span class="label-text">Full Name</span>
+                  <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    placeholder="Ex: Juan Dela Cruz"
+                  />
+                </label>
+                <label for="email"
+                  ><span class="label-text">Email</span
+                  ><input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Ex: juan@delacruz.com"
+                /></label>
+                <label for="phone"
+                  ><span class="label-text">Phone</span
+                  ><input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="Ex: +639121451306"
+                /></label>
+                <label for="email"
+                  ><span class="label-text">Message</span
+                  ><textarea
+                    name="message"
+                    id="message"
+                    placeholder="Tell us what do you need"
+                  ></textarea>
+                </label>
+                <button type="submit">Submit Enquiry</button>
+              </div>
+            </form>
+            <p></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        VADJR Web Development Solutions - Copyright 2026, All rights reserved
+      </p>
+    </footer>
+  </body>
+</html>
