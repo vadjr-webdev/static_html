@@ -149,7 +149,7 @@ header nav ul li:hover a {
 /* Hero Section */
 #hero {
   position: relative;
-  background-image: url(/images/pexels-negativespace-92905.jpg);
+  background-image: url(images/pexels-negativespace-92905.jpg);
   padding: 120px 0;
   z-index: 1;
 }
